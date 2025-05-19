@@ -21,7 +21,7 @@ export const Page1 = () => {
 	return (
 		<div>
 			{isLoading ? (
-				<div className='loader'></div>
+				<span className='loader'></span>
 			) : (
 				users.map(user => (
 					<h2 key={user.id}>

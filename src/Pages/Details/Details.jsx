@@ -22,7 +22,7 @@ export const Details = () => {
 	}, [])
 
 	if (isLoading) {
-		return <div className='loader'></div>
+		return <span className='loader'></span>
 	}
 
 	return (
